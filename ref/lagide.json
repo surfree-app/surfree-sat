@@ -1,0 +1,50 @@
+{
+ "slug": "lagide",
+ "name": "Lagide",
+ "region": "peniche",
+ "crop": [
+  39.37,
+  -9.333
+ ],
+ "pin": [
+  39.37498,
+  -9.33576
+ ],
+ "pin_rc": [
+  24.06,
+  55.75
+ ],
+ "era5": [
+  39.5,
+  -9.5
+ ],
+ "tide_point": [
+  39.36,
+  -9.4
+ ],
+ "spot": {
+  "facing": 5,
+  "window_floor": 0.25
+ },
+ "history": {
+  "c": [
+   8.402,
+   22.293,
+   -33.133
+  ],
+  "mad_m": 37.1,
+  "n": 206,
+  "r2": 0.627,
+  "E_range": [
+   2.06,
+   8.74
+  ],
+  "images": 259,
+  "years": [
+   "2017-03-09",
+   "2026-11-04"
+  ],
+  "model": "outer_m = c0 + c1*E + c2*tide (m); E = sqrt(w*Hs_ft^2*T/10) toward the satellite-measured shore facing, w floor 0.25; tide in m"
+ },
+ "source": "Built by surfree analysis/beach_check.py refs from Sentinel-2 L2A crops 2016-2026 (contains modified Copernicus Sentinel data) and ERA5 via Open-Meteo."
+}

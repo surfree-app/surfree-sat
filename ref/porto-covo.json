@@ -1,0 +1,50 @@
+{
+ "slug": "porto-covo",
+ "name": "Porto Covo",
+ "region": "sines",
+ "crop": [
+  37.852,
+  -8.793
+ ],
+ "pin": [
+  37.85532,
+  -8.7958
+ ],
+ "pin_rc": [
+  42.54,
+  54.89
+ ],
+ "era5": [
+  38.0,
+  -9.0
+ ],
+ "tide_point": [
+  37.92,
+  -8.84
+ ],
+ "spot": {
+  "facing": 266,
+  "window_floor": 0.25
+ },
+ "history": {
+  "c": [
+   28.337,
+   11.687,
+   -16.967
+  ],
+  "mad_m": 25.2,
+  "n": 155,
+  "r2": 0.452,
+  "E_range": [
+   1.72,
+   6.36
+  ],
+  "images": 211,
+  "years": [
+   "2017-07-09",
+   "2026-11-04"
+  ],
+  "model": "outer_m = c0 + c1*E + c2*tide (m); E = sqrt(w*Hs_ft^2*T/10) toward the satellite-measured shore facing, w floor 0.25; tide in m"
+ },
+ "source": "Built by surfree analysis/beach_check.py refs from Sentinel-2 L2A crops 2016-2026 (contains modified Copernicus Sentinel data) and ERA5 via Open-Meteo."
+}

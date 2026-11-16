@@ -1,0 +1,50 @@
+{
+ "slug": "molhe-leste",
+ "name": "Molhe Leste",
+ "region": "peniche",
+ "crop": [
+  39.353,
+  -9.372
+ ],
+ "pin": [
+  39.34778,
+  -9.36631
+ ],
+ "pin_rc": [
+  137.61,
+  128.48
+ ],
+ "era5": [
+  39.5,
+  -9.5
+ ],
+ "tide_point": [
+  39.36,
+  -9.4
+ ],
+ "spot": {
+  "facing": 196,
+  "window_floor": 0.25
+ },
+ "history": {
+  "c": [
+   12.03,
+   10.494,
+   -17.17
+  ],
+  "mad_m": 15.7,
+  "n": 182,
+  "r2": 0.387,
+  "E_range": [
+   1.27,
+   5.4
+  ],
+  "images": 278,
+  "years": [
+   "2017-03-09",
+   "2026-11-04"
+  ],
+  "model": "outer_m = c0 + c1*E + c2*tide (m); E = sqrt(w*Hs_ft^2*T/10) toward the satellite-measured shore facing, w floor 0.25; tide in m"
+ },
+ "source": "Built by surfree analysis/beach_check.py refs from Sentinel-2 L2A crops 2016-2026 (contains modified Copernicus Sentinel data) and ERA5 via Open-Meteo."
+}

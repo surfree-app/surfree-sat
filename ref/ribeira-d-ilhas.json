@@ -1,0 +1,50 @@
+{
+ "slug": "ribeira-d-ilhas",
+ "name": "Ribeira d'Ilhas",
+ "region": "ericeira",
+ "crop": [
+  38.9875,
+  -9.4195
+ ],
+ "pin": [
+  38.9891,
+  -9.42259
+ ],
+ "pin_rc": [
+  61.69,
+  52.76
+ ],
+ "era5": [
+  39.0,
+  -9.5
+ ],
+ "tide_point": [
+  38.958336,
+  -9.458328
+ ],
+ "spot": {
+  "facing": 258,
+  "window_floor": 0.25
+ },
+ "history": {
+  "c": [
+   49.907,
+   14.717,
+   -13.317
+  ],
+  "mad_m": 28.2,
+  "n": 363,
+  "r2": 0.575,
+  "E_range": [
+   1.48,
+   8.85
+  ],
+  "images": 458,
+  "years": [
+   "2017-08-08",
+   "2026-10-27"
+  ],
+  "model": "outer_m = c0 + c1*E + c2*tide (m); E = sqrt(w*Hs_ft^2*T/10) toward the satellite-measured shore facing, w floor 0.25; tide in m"
+ },
+ "source": "Built by surfree analysis/beach_check.py refs from Sentinel-2 L2A crops 2016-2026 (contains modified Copernicus Sentinel data) and ERA5 via Open-Meteo."
+}

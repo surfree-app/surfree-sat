@@ -1,0 +1,50 @@
+{
+ "slug": "supertubos",
+ "name": "Supertubos",
+ "region": "peniche",
+ "crop": [
+  39.3417,
+  -9.3633
+ ],
+ "pin": [
+  39.34116,
+  -9.36277
+ ],
+ "pin_rc": [
+  85.51,
+  84.06
+ ],
+ "era5": [
+  39.5,
+  -9.5
+ ],
+ "tide_point": [
+  39.36,
+  -9.4
+ ],
+ "spot": {
+  "facing": 250,
+  "window_floor": 0.25
+ },
+ "history": {
+  "c": [
+   12.476,
+   11.488,
+   -19.935
+  ],
+  "mad_m": 16.0,
+  "n": 224,
+  "r2": 0.657,
+  "E_range": [
+   1.57,
+   7.54
+  ],
+  "images": 280,
+  "years": [
+   "2017-03-09",
+   "2026-11-04"
+  ],
+  "model": "outer_m = c0 + c1*E + c2*tide (m); E = sqrt(w*Hs_ft^2*T/10) toward the satellite-measured shore facing, w floor 0.25; tide in m"
+ },
+ "source": "Built by surfree analysis/beach_check.py refs from Sentinel-2 L2A crops 2016-2026 (contains modified Copernicus Sentinel data) and ERA5 via Open-Meteo."
+}

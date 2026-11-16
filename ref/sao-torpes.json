@@ -1,0 +1,50 @@
+{
+ "slug": "sao-torpes",
+ "name": "S\u00e3o Torpes",
+ "region": "sines",
+ "crop": [
+  37.93,
+  -8.803
+ ],
+ "pin": [
+  37.92445,
+  -8.80782
+ ],
+ "pin_rc": [
+  141.28,
+  37.18
+ ],
+ "era5": [
+  38.0,
+  -9.0
+ ],
+ "tide_point": [
+  37.92,
+  -8.84
+ ],
+ "spot": {
+  "facing": 249,
+  "window_floor": 0.25
+ },
+ "history": {
+  "c": [
+   35.251,
+   5.059,
+   -13.712
+  ],
+  "mad_m": 14.1,
+  "n": 175,
+  "r2": 0.447,
+  "E_range": [
+   1.22,
+   6.29
+  ],
+  "images": 211,
+  "years": [
+   "2017-06-14",
+   "2026-11-04"
+  ],
+  "model": "outer_m = c0 + c1*E + c2*tide (m); E = sqrt(w*Hs_ft^2*T/10) toward the satellite-measured shore facing, w floor 0.25; tide in m"
+ },
+ "source": "Built by surfree analysis/beach_check.py refs from Sentinel-2 L2A crops 2016-2026 (contains modified Copernicus Sentinel data) and ERA5 via Open-Meteo."
+}

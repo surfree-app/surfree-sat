@@ -1,0 +1,50 @@
+{
+ "slug": "foz-do-lizandro",
+ "name": "Foz do Lizandro",
+ "region": "ericeira",
+ "crop": [
+  38.941,
+  -9.416
+ ],
+ "pin": [
+  38.9398,
+  -9.41923
+ ],
+ "pin_rc": [
+  92.86,
+  51.53
+ ],
+ "era5": [
+  39.0,
+  -9.5
+ ],
+ "tide_point": [
+  38.958336,
+  -9.458328
+ ],
+ "spot": {
+  "facing": 288,
+  "window_floor": 0.25
+ },
+ "history": {
+  "c": [
+   11.798,
+   10.525,
+   -12.643
+  ],
+  "mad_m": 19.5,
+  "n": 395,
+  "r2": 0.691,
+  "E_range": [
+   2.25,
+   10.61
+  ],
+  "images": 521,
+  "years": [
+   "2017-08-21",
+   "2026-10-27"
+  ],
+  "model": "outer_m = c0 + c1*E + c2*tide (m); E = sqrt(w*Hs_ft^2*T/10) toward the satellite-measured shore facing, w floor 0.25; tide in m"
+ },
+ "source": "Built by surfree analysis/beach_check.py refs from Sentinel-2 L2A crops 2016-2026 (contains modified Copernicus Sentinel data) and ERA5 via Open-Meteo."
+}
