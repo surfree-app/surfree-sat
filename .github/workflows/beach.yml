@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: '3.12'
           cache: pip
-      - run: pip install --only-binary=:all: -r requirements.txt
+      - run: pip install --only-binary ':all:' -r requirements.txt
       - run: python beachcheck.py
         env:
           REFRESH_KEY: ${{ secrets.REFRESH_KEY }}
